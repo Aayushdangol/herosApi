@@ -22,7 +22,15 @@ public class MainActivity extends AppCompatActivity {
         btnPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,PostActivity.class);
+                Intent intent = new Intent(MainActivity.this,AddHeroActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnGet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,GetHeroActivity.class);
                 startActivity(intent);
             }
         });
