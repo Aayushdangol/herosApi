@@ -2,25 +2,25 @@ package model;
 
 public class Heroes {
 
-    private String id;
+//    private String id;
     private String name;
     private String desc;
-    private String image;
+//    private String image;
 
-    public Heroes(String id, String name, String desc, String image) {
-        this.id = id;
+    public Heroes( String name, String desc) {
+//        this.id = id;
         this.name = name;
         this.desc = desc;
-        this.image = image;
+//        this.image = image;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+//    public String getId() {
+//        return id;
+//    }
+//
+//    public void setId(String id) {
+//        this.id = id;
+//    }
 
     public String getName() {
         return name;
@@ -38,11 +38,11 @@ public class Heroes {
         this.desc = desc;
     }
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
+//    public String getImage() {
+//        return image;
+//    }
+//
+//    public void setImage(String image) {
+//        this.image = image;
+//    }
 }
